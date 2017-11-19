@@ -14,8 +14,8 @@ public class scanner2 {
         String str2 = scanner.next();
         int Возраст = scanner.nextInt();
         String str3 = scanner.next();
-        System.out.println(ANSI_BLUE+name  +ANSI_RESET + str +" " + ANSI_RED+city  +ANSI_RESET +str2);
-        System.out.println(ANSI_BLUE+age  +ANSI_RESET+Возраст+ANSI_BLUE+" лет   "+ANSI_RESET+ANSI_RED+hobby  +ANSI_RESET+str3);
+        System.out.println(ANSI_BLUE+name+" "+ANSI_RESET + str +"\t " + ANSI_RED+city+""+ANSI_RESET +str2);
+        System.out.println(ANSI_BLUE+age+" "+ANSI_RESET+Возраст+ANSI_BLUE+" лет\t "+ANSI_RESET+ANSI_RED+hobby  +ANSI_RESET+str3);
 
     }
 }
